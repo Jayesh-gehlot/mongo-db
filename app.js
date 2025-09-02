@@ -12,7 +12,7 @@ connectDB();
 
 // Sample route
 app.get('/', (req, res) => {
-    res.send('Welcome to the Node.js MongoDB App!');
+    res.send('I love you Beta 💖💖💖💖');
 });
 
 // Start the server

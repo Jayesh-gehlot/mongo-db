@@ -26,7 +26,7 @@ jobs:
             whoami 
             export NVM_DIR="$HOME/.nvm"
             [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"
-            cd /projects/mongo-db
+            cd projects/mongo-db
             git pull origin main
             npm install
             pm2 restart node-server

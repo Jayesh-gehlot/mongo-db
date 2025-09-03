@@ -3,7 +3,7 @@ name: Deploy to Dev Env
 on:
   push:
     branches:
-      - [main]
+      - main
 
 jobs:
   deploy:

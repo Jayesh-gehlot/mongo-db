@@ -12,7 +12,7 @@ connectDB();
 
 // Sample route
 app.get('/', (req, res) => {
-    res.send('I love you Beta 💖💖💖💖');
+    res.send('Hello guys');
 });
 
 // Start the server
